@@ -1,3 +1,20 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your HTML Page</title>
+    <style>
+        body {
+            overflow: auto;
+            /* Use 'auto' to enable scrolling if needed */
+        }
+
+        .main {
+            word-wrap: break-word;
+            /* or use 'overflow-wrap: break-word;' for better browser compatibility */
+        }
+    </style>
+</head>
+<body>
 <div class="news-banner" style="background-color: greenyellow;">
     <h2>Cafe News</h2>
     <h3>Coffee Labs Roasters has expanded!</h3>
@@ -5,8 +22,10 @@
         offerings in the process</p>
     <p>review incoming, reader notes welcome</p>
 </div>
-<div>
+<div class="main">
     <h1>TLV WORKSPACE RANKINGS</h1>
+    <h3>By Gil Reich (last updated 1 Feb 2024) </h3>
+    <p>e-mail gilreich12@gmail.com for correspondance </p>
 </div>
 <div>
     <h2>CRITERIA</h2>
@@ -21,13 +40,14 @@
         <li>Food Availability</li>
         <li>Socket Availability</li>
     </ol>
-    <p>Friend of website Jamie has proposed two metrics, now noted but not included in final ranking (I leave their
-        significance to reader discretion):</p>
-    <ul>
+    <p>Friend of website Jamie has proposed two further metrics:</p>
+    <ol>
         <li>light</li>
         <li>temperature control (AC cooling in summer, heat in winter)</li>
-    </ul>
+    </ol>
     <p>
+        Temperature Control is now included in final ranking and the former noted in addendum (I leave
+        it's significance to reader discretion):
         refer to
         <a href="#footer"> website addendum </a>
         for these
@@ -100,6 +120,7 @@
         <h5>REVIEW INCOMING</h5>
     </div>
 </div>
+</body>
 <footer id="footer">
     <h2>addendum</h2>
     <h3>How ratings are decided</h3>
