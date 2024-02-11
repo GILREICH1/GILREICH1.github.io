@@ -10,14 +10,22 @@
         .main {
             word-wrap: break-word;
         }
+        .news-banner {
+
+        }
     </style>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-<div class="news-banner" style="background-color: yellow;">
-    <h2>Website news</h2>
-    <h3>New Section: Milman's Mood Ring Reviews (title tbc) coming soon!</h3>
-    <h3> Organisational statement: CEASEFIRE NOW </h3>
-    <p> Welcome aboard trainee engineer, Jacob. We wish him all the best. </p>  
+<div class="news-banner" style="background-color: yellow; position: sticky; top: 10px">
+    <h3>Website news</h3>
+    <h4>New Section: Joelle's Mood Ring Reviews out now!</h4>
+    <p>if you want a vibe check on Garger or to know who has the best coffee, read more
+        <a href="Milman.html">
+        here
+        </a>
+    </p>
+    <h4> Organisational statement: CEASEFIRE NOW </h4>
 </div>
 <div class="main">
     <h1>A utilitarian rating of TLV Cafes for Working</h1>
@@ -38,8 +46,8 @@
         <li>Socket Availability</li>
     </ol>
     <p>
-        see 
-        <a href="#partI"> addenda </a>
+        see
+        <a href="#footer"> addenda </a>
         for how these are calculated
     </p>
     <p>Friend of website Jamie has proposed two further metrics:</p>
@@ -135,10 +143,10 @@
     </div>
 </div>
 </body>
-<footer id="footer">
+<footer class="live-link" id="footer">
     <h2>Addenda</h2>
-    <div id="partI">
-        <h3 >Part I</h3>
+    <div  id="partI">
+        <h3>Part I</h3>
         <h4>How ratings are decided</h4>
         <p>Space:</p>
         <ul>
@@ -157,7 +165,7 @@
             <li>8 - 10 multiple sockets likely (special mention to Dede's 1.25 sockets per seat outdoors) </li>
         </ul>
     </div>
-    <div id="partII">
+    <div class="live-link" id="partII">
         <h3>Part II</h3>
         <h4>More Data</h4>
         <p>Further criteria and their ratings for further reader information</p>
@@ -223,7 +231,7 @@
             </ol>
         </div>
     </div>
-    <div id="partII">
+    <div class="live-link" id="partIII">
         <h3>Part III</h3>
         <h4>Overheard</h4>
         <p>"I'm sick of being in conversations where I'm not asked a single question' - Dede</p>
